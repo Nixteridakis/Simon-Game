@@ -1,0 +1,282 @@
+@media screen and (min-width: 600px) {
+  .row {
+    height: 300px;
+  }
+  .container {
+    height: 600px;
+    width: 600px;
+  }
+  .inner-container{
+      font-size: 38px;
+  }
+  .button_text {
+  margin-top: 29px;
+  margin-left: -11px;
+}
+  .strict{
+  margin-left:90px;
+}
+  .switch_cont {
+  position: absolute;
+  font-size: 22px;
+  left: 11%;
+  top: 72%
+}
+.word1,
+.word2 {
+  position: absolute;
+  display: inline-block;
+  margin-top: 8%;
+}
+  .word1 {
+  left: 44px;
+}
+
+.word2 {
+  right: 35px;
+}
+  #counter{
+      font-size: 34px;
+
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .row {
+    height: 220px;
+  }
+  .container {
+    height: 440px;
+    width: 440px;
+  }
+  .inner-container{
+    font-size: 28px;
+  }
+  .strict{
+  margin-left:60px;
+}
+    .button_text {
+  margin-top: 22px;
+  margin-left:-11px;
+  font-size:12px;
+}
+  
+  .switch_cont {
+  position: absolute;
+  font-size: 15px;
+  left: 8%;
+  top: 69%
+}
+  .word1 {
+  left: 30px;
+}
+
+.word2 {
+  right: 14px;
+}
+  .word1,
+.word2 {
+  margin-top: 15%;
+}
+    #counter{
+      font-size: 25px;
+
+  }
+}
+body{
+  background-color:#ECE4B7;
+}
+.container {
+  position: relative;
+  top:50px;
+  left:30%;
+}
+
+.row {
+  width: 50%;
+}
+
+.first_row{
+  margin-bottom:-18px;
+}
+.board {
+  box-sizing:border-box;
+  border: 20px solid #333;
+  display: inline-block;
+}
+
+.green {
+  cursor: pointer;
+  border-top-left-radius: 100%;
+  background-color: #12a65a;
+  box-shadow: inset -15px -15px 20px -20px #000000;
+}
+.green.bright {
+  background-color: #55d292;
+}
+
+.green:active {
+  background-color: #55d292;
+}
+.red {
+  cursor: pointer;
+  border-top-right-radius: 100%;
+  background-color: #e84747;
+  margin-left: -18px;
+  box-shadow: inset 15px -15px 20px -20px #000000;
+}
+.red.bright {
+  background-color: #ff5959;
+}
+.red:active {
+  background-color: #ff5959;
+}
+.blue {
+  cursor: pointer;
+  border-bottom-right-radius: 100%;
+  background-color: #1e67a8;
+  margin-left: -18px;
+  box-shadow: inset 15px 15px 20px -20px #000000;
+}
+.blue.bright {
+  background-color: #2788dd;
+}
+.blue:active {
+  background-color: #2788dd;
+}
+.yellow {
+  cursor: pointer;
+  background-color: #d3be1b;
+  border-bottom-left-radius: 100%;
+  box-shadow: inset -15px 15px 20px -20px #000000;
+}
+.yellow.bright {
+  background-color: #ffe842;
+}
+.yellow:active {
+  background-color: #ffe842;
+}
+
+.inner-container {
+  position: absolute;
+  top: 47.5%;
+  left:48.5%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: #e0f2e9;
+  font-family: 'Bungee', cursive;
+  padding-top: 30px;
+  box-sizing: border-box;
+  border: 20px solid #333;
+}
+
+.name {
+  position: absolute;
+  top:11%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+#counter {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 17%;
+  border: 5px solid black;
+  border-radius: 26%;
+  color: #b93032;
+  background-color: #380213;
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+  text-align:center;
+}
+
+#start,
+.strict {
+  border: 3px solid black;
+  position: absolute;
+  width: 9%;
+  height: 9%;
+  border-radius: 50%;
+  top: 54%;
+  left: 27.5%;
+  box-shadow: 0px 0px 10px 0px black;
+  font-size: 14px;
+}
+
+
+#start {
+  cursor: pointer;
+  background-color: red;
+}
+
+#start:active {
+  cursor: pointer;
+  background-color: #d6cd57;
+}
+.strict {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.strict:active {
+  background-color: #d6cd57;
+}
+
+.state {
+  border: 2px solid black;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: -5px;
+  border-radius: 50%;
+  left: 30px;
+  background-color: black;
+}
+
+.switch_cont {
+  position: absolute;
+  height: 50px;
+  width: 80%;
+  color: brown;
+
+}
+
+.word1,
+.word2 {
+  position: absolute;
+  display: inline-block;
+}
+
+
+#switch_box {
+background-color: black;
+  position: absolute;
+  height: 20px;
+  width: 40px;
+  margin-left: 40%;
+  top: 20px;
+}
+
+.switch {
+  width: 50%;
+  height: 100%;
+  border-radius: 20%;
+  border: 3px solid #32302a;
+  background-color: #236aa8;
+  box-sizing: border-box;
+  float: right;
+  cursor: pointer;
+}
+
+.disableBtns {
+  pointer-events: none;
+}
+.enableBtns {
+  pointer-events: auto;
+  cursor: pointer;
+}
