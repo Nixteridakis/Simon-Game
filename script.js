@@ -138,7 +138,7 @@ function stateMode() {
 
 //function that resets everything
 function reset() {
-  winState = false;
+  win= false;
   lock = "off";
   startGame = "off";
   resetVal = true;
@@ -175,15 +175,15 @@ function turns() {
     timeColor = 450;
     timeBetn = timeColor + 350;
     timeInpt = 2500;
-  } else {
-    timeColor = 500;
-    timeBetn = 0;
-    winState();
-    return false;
-  }
+  } 
+ if (turn !==21){
   randomNum = Math.floor(Math.random() * 4) + 1;
   colorSeries.push(randomNum)
   flashingSequence()
+  }
+  else{
+     winState()
+  }
 }
 
 async function flashingSequence() {
