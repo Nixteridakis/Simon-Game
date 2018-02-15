@@ -1,3 +1,7 @@
-The project can be found here:
+#Simon Game
 
-https://nixteridakis.github.io/Simon-Game
+You can view the game here:https://nixteridakis.github.io/Simon-Game
+
+Info
+======
+A game made in JavaScript using time methods and latest ES6 features such as Promises.
