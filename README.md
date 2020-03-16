@@ -1,4 +1,4 @@
-#Simon Game
+## Simon Game
 
 You can view the game here:https://nixteridakis.github.io/Simon-Game
 
